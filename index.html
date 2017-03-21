@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HR Portal</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <script src="js/jquery.bxslider.js"></script>
+   <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+  <script>
+  $( function() {
+    $( "#dashboard-menu" ).accordion();
+	$('.dashboard-cc').css({'height':(($(window).height())-0)+'px'});
+  } );
+  </script>
+  <script>
+	$(document).ready(function(){
+	  $('.bxslider').bxSlider({
+	    pager:false,
+		auto:true
+	  });
+	  $('.bxslider1').bxSlider({
+		  minSlides: 3,
+		  maxSlides: 4,
+		  slideWidth: 110,
+		  slideMargin: 10
+		});
+	});
+	
+  </script>
+</head>
+<body>  
+<div class="container">
+  <div class="row">
+    <div class="col-2 dashboard-cc">
+		<div class="logo" align="center">
+			<span><img src="img/logo.png"/><font>People</font></span>
+		</div>
+	  <div class="dashboard-menu">
+		<ul>
+			<li><img src="img/dashboard.png"/><a href="">Dashboard</a></li>
+			<li><img src="img/approvals.png"/><a href="">Approvals<font class="apcount">12</font></a></li>
+			<li><img src="img/new-hires.png"/><a href="">New Hires<span><img src="img/drop-right.png"/></span></a></li>
+			<li><img src="img/user.png"/><a href="">Employer List<span><img src="img/drop-right.png"/></span></a></li>
+			<li><img src="img/orgnization.png"/><a href="">Orgnization<span><img src="img/drop-right.png"/></span></a></li>
+			<li><img src="img/announcement.png"/><a href="">Announcement<span><img src="img/drop-right.png"/></span></a></li>
+			<li><img src="img/self-service.png"/><a href="">Self service<span><img src="img/drop-right.png"/></span></a></li>
+			<li><img src="img/date.png"/><a href="">Employee Attendence</a></li>
+		</ul>
+	  </div>
+		<!--<div id="dashboard-menu">
+			  <h3>Section 1</h3>
+			  <div>
+				<p>
+				Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+				ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+				amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+				odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+				</p>
+			  </div>
+			  <h3>Section 2</h3>
+			  <div>
+				<p>
+				Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+				purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+				velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+				suscipit faucibus urna.
+				</p>
+			  </div>
+			  <h3>Section 3</h3>
+			  <div>
+				<p>
+				Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+				Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+				ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+				lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+				</p>
+				<ul>
+				  <li>List item one</li>
+				  <li>List item two</li>
+				  <li>List item three</li>
+				</ul>
+			  </div>
+			  <h3>Section 4</h3>
+			  <div>
+				<p>
+				Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+				et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+				faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+				mauris vel est.
+				</p>
+				<p>
+				Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+				Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+				inceptos himenaeos.
+				</p>
+			  </div>
+		</div> -->
+    </div>
+    <div class="col-10">
+      <div class="row nav-header">
+		<div class="left-nav">
+			<div class="menu">
+				<img src="img/menu-icon.png"/>
+			</div>
+		</div>
+		<div class="right-nav">
+			<div class="right-menu">
+				<ul>
+					<li class="dash-iocns"><a href="">Quick Links<span><img src="img/drop-down.png"/></span></a></li>
+					<li class="dash-iocns"><a href=""><img src="img/annonce-header.png"/></a></li>
+					<li class="dash-iocns"><a href=""><img src="img/setting.png"/></a></li>
+					<li class="dash-iocns"><a href=""><img src="img/who-am.png"/></a></li>
+					<li ><a href=""><img src="img/user-icon.png"/><span>Bruce Wayne<br>Hr</span></a></li>
+				</ul>
+			</div>
+		</div>
+	  </div>
+	  <div class="main-content">
+	  <div class="row chrt-row">
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>Employee Chart</h3>
+					</div>
+					<div class="ep-year">
+						<select>
+						  <option value="volvo">2016</option>
+						  <option value="saab">Saab</option>
+						  <option value="opel">Opel</option>
+						  <option value="audi">Audi</option>
+						</select>
+					</div>
+					<div class="chrtgraph">
+						<img src="img/graph1.png"/>
+					</div>
+					
+				</div>
+				<div class="totalunmbers">
+						 <div align="right">
+							<span><span>Total Employees</span><font>1092</font></span>
+						</div>
+				</div>
+			</div>
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>New Joinees for jun</h3>
+					</div>
+					<div class="ep-year">
+						<img src="img/new-hires1.png"/>
+					</div>
+					<div class="chrtgraph">
+						<img src="img/graph1.png"/>
+					</div>
+					
+				</div>
+				<div class="totalunmbers">
+						 <div align="right">
+							<span><span>Total Employees</span><font>1092</font></span>
+						</div>
+				</div>
+			</div>
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>New Joinees for jun</h3>
+					</div>
+					<div class="ep-year">
+						<img src="img/add.png"/>
+					</div>
+					<div class="slider">
+						<ul class="bxslider">
+						  <li>
+						  <div class="new-employes" align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div class="new-employes" align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div class="new-employes" align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div class="new-employes" align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="row chrt-row">
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>Approval Waiting</h3>
+					</div>
+					<div class="chrtgraph1">
+						<table>
+							<tr>
+								<td>John Mathew</td>
+								<td>11194</td>
+								<td>UX Team</td>
+							</tr>
+							<tr>
+								<td>Lisa Ann</td>
+								<td>11194</td>
+								<td>UX Team</td>
+							</tr>
+							<tr>
+								<td>Clerk Kent</td>
+								<td>11194</td>
+								<td>UX Team</td>
+							</tr>
+						</table>
+					</div>
+					
+				</div>
+				<div class="more">
+						 <div align="right">
+							<a href="#">More</a>
+						</div>
+				</div>
+			</div>
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>Announcement</h3>
+					</div>
+					<div class="ep-year">
+						<img src="img/announcemnet.png"/>
+					</div>
+					<div class="chrtgraph-ance">
+						<ul>
+						  <li>" Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"<span>11.20p.m</span></li>
+						   <li>" Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"<span>11.20p.m</span></li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="more">
+						 <div align="right">
+							<a href="#">More</a>
+						</div>
+				</div>
+			</div>
+			<div class="col-4 db-bs">
+				<div class="employment-chrt">
+					<div class="ep-head">
+						<h3>Say Happy Birthday</h3>
+					</div>
+					<div class="ep-year">
+						<img src="img/mesage.png"/>
+					</div>
+					<div class="slider slider-hello">
+						<ul class="bxslider">
+						  <li>
+						  <div align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						  <li>
+						  <div align="center">
+						     <figure >
+							  <img src="img/slide-user.png">
+							  <figcaption class="figct">
+								<h3>Mike Laurel</h3>
+								<h5>Senior UX Designer</h5>
+							  </figcaption>
+							</figure> 
+						</div>
+						  </li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	  </div>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
